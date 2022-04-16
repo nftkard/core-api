@@ -1,0 +1,39 @@
+{
+  "name": "core-api",
+  "version": "0.0.1",
+  "description": "NFTKard main core api for server management and service process control",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nftkard/core-api.git"
+  },
+  "author": "Bilal Dastagir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nftkard/core-api/issues"
+  },
+  "homepage": "https://github.com/nftkard/core-api#readme",
+  "dependencies": {
+    "authenticator": "^1.1.5",
+    "bcryptjs": "^2.4.3",
+    "cryptr": "^6.0.2",
+    "express": "^4.17.3",
+    "express-winston": "^4.2.0",
+    "handlebars": "^4.7.7",
+    "jest": "^27.5.1",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.5.0",
+    "qrcode": "^1.5.0",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.13",
+    "validate.js": "^0.13.1",
+    "web3": "^1.7.3",
+    "winston": "^3.7.2",
+    "zxcvbn": "^4.4.2"
+  }
+}
